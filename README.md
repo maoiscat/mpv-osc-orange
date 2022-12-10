@@ -6,9 +6,9 @@ This is a mpv osc script using my oscf tool.
 
 ## Usage
 
-1. Make a new folder in ''\~\~/scripts''. Let take ''\~\~/scripts/orange'' for example.
+1. Make a new folder in ''\~\~/scripts''. Let's take ''\~\~/scripts/orange'' for example.
 
-2. Download all lua files and put them into the folder.
+2. Download all lua files and put them into that folder.
 
 3. Remove/Disable other osc scripts.
 

@@ -362,7 +362,7 @@ ne.render = function(self)
         -- markers
         for i, v in ipairs(self.markers) do
             local x = v/100 * self.xLength + self.geo.gap
-            local r = self.barHeight + 2
+            local r = self.barHeight/2 + 1.5
             local y = (self.geo.bar.y1 + self.geo.bar.y2) / 2
             ass:round_rect_cw(x-r, y-r, x+r, y+r, r)
         end

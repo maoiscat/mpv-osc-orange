@@ -771,7 +771,6 @@ ne.responder['mbtn_left_up'] = function(self, pos)
 ne.responder['file-loaded'] = function(self)
         -- update chapter markers
         self.markers = {}
-        print('111')
         if player.duration then
             for i, v in ipairs(player.chapters) do
                 self.markers[i] = (v.time*100 / player.duration)

@@ -1,6 +1,6 @@
 # mpv-osc-orange
 
-This is a mpv osc script using my oscf tool.
+This is a mpv osc script using my [oscf](https://github.com/maoiscat/mpv-osc-framework) tool.
 
 ![preview](https://github.com/maoiscat/mpv-osc-orange/blob/main/preview.png)
 

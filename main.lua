@@ -6,6 +6,14 @@ require 'elements'
 local assdraw = require 'mp.assdraw'
 local utils = require 'mp.utils'
 
+-- user options
+opts = {
+    scale = 1,              -- osc render scale
+    fixedHeight = false,    -- true to allow osc scale with window
+    hideTimeout = 1,        -- seconds untile osc hides, negative means never
+    fadeDuration = 0.5,     -- seconds during fade out, negative means never
+    }
+
 mp.commandv('set', 'keepaspect', 'yes')
 mp.commandv('set', 'border', 'no')
 mp.commandv('set', 'keepaspect-window', 'no')

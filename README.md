@@ -21,3 +21,5 @@ This is a mpv osc script using my [oscf](https://github.com/maoiscat/mpv-osc-fra
 2. You may encounter dark bars on both sides of the video. This is because neither I nor the mpv find a way to adjust the window on the fly.
 
 3. The maximize button in the title bar is actually ''toggle fullscreen''
+
+4. If anyone feels the osc too small, open ''main.lua'' with any text editor, locate the ''user options'' comment, and change **scale** below.

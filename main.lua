@@ -124,8 +124,9 @@ ne.style = nil
 ne.visible = false
 ne.init = function(self)
         -- event generators
-        mp.register_event('file-loaded',
-            function()
+		mp.observe_property('track-list/count', 'native', 
+			function(name, val)
+				if val==0 then return end
                 player.tracks = getTrackList()
                 player.playlist = getPlaylist()
                 player.chapters = getChapterList()
